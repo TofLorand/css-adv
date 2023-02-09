@@ -1,0 +1,55 @@
+/* = = = = = = = = = = = = *\
+          HEADER PARTS
+/* = = = = = = = = = = = = */
+
+
+
+.page-menu-item {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.logo {
+    float: left;
+}
+
+/* = = = = = = = = = = = = *\
+         SERVICES PARTS
+/* = = = = = = = = = = = = */
+
+
+
+
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pictogram {
+    height: 4rem;
+}
+
+/* = = = = = = = = = = = = *\
+         CONTACT PARTS
+/* = = = = = = = = = = = = */
+
+.content__contact-part {
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}

@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+/* = = = = = = = = = = = = *\
+          BASE STyles
+/* = = = = = = = = = = = = */
+
+
+
+
+
+html {
+    font-size: min(3.2vw, 14px);
+    font-family: "Lucida Console", Monaco, monospace;
+    background-color: #F1F8D8;
+}
+
+
+header {
+    background-color: #092835;
+    color: #B4D735;
+    z-index: 100;
+    position: fixed;
+    height: 5rem;
+    width: 100%;
+}
+footer {
+    background-color: #092835;
+}
+
+.navbar a {
+    color: #B4D735;
+}
+
+.content {
+    height: 100vh;
+    position: relative;
+    margin-top: 5rem;
+}
+
+
+/* = = = = = = = = = = = = *\
+          NAVBAR PARTS
+/* = = = = = = = = = = = = */
+
+
+
+.navbar {
+    font-size: 1.2rem;
+    justify-content: center;
+}
+
+
+.logo {
+    font-size: 2rem;
+    font-weight: 800;
+    text-shadow: 5px 5px 10px #F1F8D8;
+    margin-left: 2rem;
+}
+
+
+/* = = = = = = = = = = = = *\
+     MAIN CONTENT STYLES
+/* = = = = = = = = = = = = */
+
+
+
+
+
+.heroe-text {
+    font-size: 1.5rem;
+}
+
+.heroe-text p {
+    line-height: 2rem;
+}
+
+.title {
+    text-align: center;
+    padding: 3rem;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 2.3rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+    background-color: #18779c73;
+    border-radius: 10pc;
+    border: 1px solid grey;
+}
+
+h3 {
+    margin-bottom: 1rem;
+}
+
+
+.content {
+    padding: 0 2rem;
+}
+
+
+.grid-container {
+    /* IMAGE GRID CONTAINER */
+    height: 35rem;
+    width: 35rem;
+    float: right;
+    filter: grayscale(25%);
+}
+
+p {
+    line-height: 1.6rem;
+    letter-spacing: 2px;
+    margin: 1.5rem;
+}
+
+.cards > p {
+    line-height: 1.rem;
+    margin: 1rem;
+    font-size: min(3.2vw, 14px);
+    height: 30%;
+}
+
+
+.page-footer-item {
+    height: 5rem;
+}
